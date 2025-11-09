@@ -27,7 +27,8 @@ The dataset includes customer demographic information, contract details, usage m
 
   
 ## Files
-
+[Dashboard View](Telcom Dashboard.png)
+[Download The Full Excel Analysis](
 
 ## Tools
 - Microsoft Excel (with formulas, charts, and pivot tables)  
