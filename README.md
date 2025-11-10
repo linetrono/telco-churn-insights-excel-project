@@ -98,7 +98,7 @@ Pivot tables, charts, and slicers (e.g., Gender, SeniorStatus) were then used to
 ## Files
 [Dashboard Image View](Telco_Dashboard.png)
 
-[Dashboard Video View](
+[Dashboard Video View](Telco_Churn_Clip.mp4)
 
 [Download The Full Excel Analysis](Telcom_Churn_Insights_Project.xlsx)
 
