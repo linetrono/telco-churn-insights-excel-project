@@ -41,19 +41,26 @@ The IBM Telco Customer Churn dataset includes demographic, account, and usage in
 - Quantify churn drivers  
 - Provide actionable recommendations to reduce churn
 
-   ## Data Cleaning and Preparation
-
+## Data Cleaning and Preparation
 Before performing the analysis, the following steps were applied to the IBM Telco dataset:
 
 1. **Senior Status Column:** Added a `SeniorStatus` column to label `SeniorCitizen` as `Yes` or `No` for better readability.  
-2. **Missing Values:** Deleted rows where `MonthlyCharges` or `tenure` were missing, since these correspond to new customers who have not yet been billed and are not relevant for churn analysis.  
+2. **Missing Values:** Deleted rows where `MonthlyCharges` were missing  and `tenure` was 0, since these correspond to new customers who have not yet been billed and are not relevant for churn analysis.  
 3. **Consistency Checks:** Ensured categorical fields (`Yes`/`No`) are consistent, and numeric fields are correctly formatted.  
 4. **Focus Columns:** Verified that all relevant columns for churn analysis (contract, payment method, internet service, tenure, monthly charges, churn) were properly formatted and ready for calculation.  
 
 ---
 
-## Analysis Methodology
+ ##  Explore the Data 
+   - The uploaded workbook (`Telco_Churn_Insights_Project.xlsx`) contains all sheets used for this project in one file, including:  
+     - **Original dataset sheet**  
+     - **Cleaned dataset sheet**  
+     - **KPIs sheet** (with the formulas used to calculate key metrics)  
+     - **Analysis sheet** (with pivot tables + charts)  
+     - **Insight sheet** (where key findings were summarised)  
+   - You can open this Excel file and interact directly with slicers, pivot tables, and KPIs to explore the churn patterns dynamically.
 
+## Analysis Methodology
 Key KPIs were calculated using Excel formulas on the cleaned dataset and stored in a sheet named KPIS.
 
 - **Churn Rate:**  
